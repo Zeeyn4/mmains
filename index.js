@@ -1,5 +1,5 @@
 
-const yourPickcha = 'images/images.jpg'
+const yourPickcha = 'images.jpg'
 
 document.getElementById('post').addEventListener('change', function(event) {
     
