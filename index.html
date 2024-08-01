@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Связаться со мной</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="contact-form" class="contact-form">
+        <div class="center-image"><img id="surt" src="images/4 (5).png" alt="уппсс..."></div>
+        <h1>Авторизация</h1>
+        <form>
+            <label for="name">Логин:</label>
+            <input type="text" id="name" name="name" placeholder="Введите имя" required>
+
+            <label for="password">Пароль:</label>
+            <input type="password" id="password" name="email" placeholder="Введите пароль" required>
+
+            <label for="post">Ваш пол:</label>
+            <select id="post">
+                <option value="">Мужик</option>
+                <option value="">Вумен</option>
+                <option value="other">Другое</option>
+            </select>
+
+            <div id="textareaContainer"></div>
+
+            <button type="submit">Отправить</button>
+            <button id="ass" type="button">Не нажимать</button>
+            <div>
+                <h3 id="counter">(..)</h3>
+                <Button id="go" type="button">+one</Button>
+                
+            </div>
+            
+        </form>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
